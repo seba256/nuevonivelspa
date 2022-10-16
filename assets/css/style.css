@@ -1,0 +1,281 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-cabecera-dcv{
+    background-image: url("../img/john-fowler-7Ym9rpYtSdA-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+
+}
+
+.centrar-contenido-cabecera{
+    padding-top: 25%;
+    padding-bottom: 25%;
+}
+
+.bg-cabecera-dcv h1{
+    color: white;
+    font-size:500%;
+}
+
+.bg-cabecera-dcv h3{
+    color: white;
+    font-size:30px;
+    font-stretch: condensed;
+}
+
+@media ( max-width: 26.25em ) {
+    .bg-cabecera-dcv h1{
+        font-size: 300%;
+      }
+    .bg-cabecera-dcv h3{
+        margin-top: 30px;
+        color: white;
+        font-size:15px;
+        font-stretch: condensed;
+    }
+    
+     }
+
+
+
+
+.w-logo-dvc{
+    width: 170px;
+}
+
+.btn-w{
+    width: 100px;
+}
+
+h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+}
+
+.h1-carrusel{
+    font-size: 50px;
+}
+
+.text-carousel-inicio{
+    font-weight: 500 !important;
+    font-size: 1.25rem !important;
+}
+
+.prueba{
+    padding-bottom: 25%;
+    right: 5%;
+    left: 5%;
+}
+
+.w-h-img-dvc{
+    height: 100%;
+
+}
+
+.w-carousel{
+    width: 800px;
+    height: 255px;
+}
+
+.w-img-logo-clientes{
+    width: 200px;
+}
+
+.w-img-logo-clientes-sm{
+    width: 50%;
+}
+
+.service-icon {
+    position: relative;
+    margin: -50px 0 25px 0;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary);
+    background: #FFFFFF;
+    border-radius: 100px;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    transition: .5s;
+    color: #CE2035;
+}
+
+.service-item:hover .service-icon {
+    color: #FFFFFF;
+    background: var(--primary);
+    background: #CE2035;
+}
+
+.text-color-rojo{
+    color: #CE2035;
+}
+
+.service-item {
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+}
+
+.bg-color-pagina-rojo{
+    background: #CE2035;
+}
+
+.bg-color-pagina-naranjo{
+    background: #F18A30;
+}
+
+.btn-lg-square {
+    width: 48px;
+    height: 48px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+}
+
+/*** Footer ***/
+.footer .btn.btn-social {
+    margin-right: 5px;
+    color: #9B9B9B;
+    border: 1px solid #9B9B9B;
+    border-radius: 38px;
+    transition: .3s;
+}
+
+.footer .btn.btn-social:hover {
+    color: var(--primary);
+    border-color: var(--light);
+}
+
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: #9B9B9B;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+.footer .copyright {
+    padding: 25px 0;
+    border-top: 1px solid rgba(256, 256, 256, .1);
+}
+
+.footer .copyright a {
+    color: var(--light);
+}
+
+.footer .copyright a:hover {
+    color: var(--primary);
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 99;
+}
+
+/*** Button ***/
+.btn {
+    font-weight: 500;
+    transition: .5s;
+    color: white;
+}
+
+.btn:hover{
+    background: #CE2035;
+}
+
+.btn.btn-primary,
+.btn.btn-outline-primary:hover {
+    color: #FFFFFF;
+}
+
+.btn-square {
+    width: 38px;
+    height: 38px;
+}
+
+.btn-sm-square {
+    width: 32px;
+    height: 32px;
+}
+
+.btn-lg-square {
+    width: 48px;
+    height: 48px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+}
+
+
+
+.quitar-subrayado{
+    text-decoration:none;
+}
+
+.page-headeraa {
+    background:url(../img/alvaro-reyes-9QWLuwvoiIw-unsplash.jpg);
+    background-size: cover;
+}
+
+.page-header {
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/alvaro-reyes-9QWLuwvoiIw-unsplash.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.w-conceptos{
+    width: 300px;
+}
+
+.mapouter{
+    position:relative;text-align:right;width:399px;height:190px;
+}
+
+.gmap_canvas {
+    overflow:hidden;background:none!important;width:399px;height:190px;
+}
+
+.gmap_iframe {
+    width:399px!important;height:190px!important;
+}
+
+.h-logo-clientes-carrousel{
+    height: 220px;
+}
